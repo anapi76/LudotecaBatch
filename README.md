@@ -20,9 +20,21 @@ https://github.com/anapi76/LudotecaBatch.git
 
 ### Category
 
-- Implementation of a Spring Batch job that reads a file of Categories and inserts the records into a database
+- Implementation of a Spring Batch job that reads a csv file of Categories and inserts the records into a database
     1. Read the data from the csv file using a ItemReader
     2. Process the data with an ItemProcessor.
     3. Write the data into the database using an ItemWriter.
     4. Verify that the batch job has executed correctly and that the data has been inserted into the database using a
        Listener.
+    5.
+
+### Author
+
+- Implementation of a Spring Batch job that reads a csv file of Authors and inserts the records into a txt file
+    1. Read the data from the csv file using a ItemReader
+    2. Process the data with an ItemProcessor.
+    3. Write the data into the txt file using an ItemWriter.
+
+### Clean
+
+- Implementation of a Spring Batch job that cleans files in a specified directory
